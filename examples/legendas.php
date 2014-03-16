@@ -2,7 +2,8 @@
 <?php
 
 /* Exemplo de shellscript para download de legendas usando a classe LegendasTV */
-require dirname(__FILE__).'/../lib/legendastv.php';
+#require dirname(__FILE__).'/../lib/legendastv.php';
+require /opt/api.legendas.tv/lib/legendastv.php';
 
 /**
  * Função para emular o famoso readln :P
